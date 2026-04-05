@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Card Action Mobile Demo</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="scene">
+    <div class="ambient ambient-left"></div>
+    <div class="ambient ambient-right"></div>
+    <div class="ring ring-a"></div>
+    <div class="ring ring-b"></div>
+
+    <section class="stage">
+      <div class="burst"></div>
+      <div class="shockwave" id="shockwave"></div>
+      <div class="spark-burst" id="sparkBurst" aria-hidden="true"></div>
+      <div class="reward-aura" id="rewardAura" aria-hidden="true"></div>
+      <div class="card-cloud" id="cardCloud" aria-label="Mobile card animation"></div>
+      <div class="reward-copy" id="rewardCopy" aria-hidden="true">
+        <p class="reward-label">REWARD UNLOCKED</p>
+        <h2>Special Draw</h2>
+      </div>
+    </section>
+
+    <section class="hud">
+      <p class="hud-kicker">MOBILE DEMO</p>
+      <h1>직장생활백서 카드 추첨</h1>
+      <button class="trigger" id="triggerButton" type="button">다시 재생</button>
+    </section>
+  </main>
+
+  <script src="./script.js"></script>
+</body>
+</html>
